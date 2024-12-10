@@ -103,11 +103,11 @@ top: 94px;
 
     }
     .game {
-        background-color: #202027;
+        background-color: #000000;
         position: relative;
-        background-image: url(./img/Star_game.png);
+        background-image: url(./img/Star_game.png), url(./img/Slice\ 7.png);
         background-repeat: no-repeat;
-        background-position: 1021px 77px;
+        background-position: 1021px 77px, 16px 780px;
         height: 1470px;
         
     }
@@ -120,6 +120,9 @@ top: 94px;
         grid-template-columns: repeat(12, 1fr);
         margin-top: 72px;
         gap: 32px;
+        background-image: url(./img/Slice\ 7.png);
+        background-repeat: no-repeat;
+        background-position: -32px 0;
        
       
        
@@ -204,6 +207,10 @@ line-height: 39px;
        position: relative;
         padding-bottom: 144px;
         padding-top: 46px;
+        background-image: url(./img/Slice\ 4.png), url(./img/Slice\ 6.png);
+        background-repeat: no-repeat;
+        background-position: right 15px top 42px, right 52px bottom 45px;
+        
 }
 .game-play__heading {
     color: rgb(255, 255, 255);
@@ -289,7 +296,6 @@ width: 457px;
 
 .footer__text {
     color: rgb(0, 0, 0);
-font-family: Montserrat;
 font-size: 24px;
 font-weight: 600;
 line-height: 29px;
@@ -297,15 +303,27 @@ letter-spacing: 0px;
 text-align: center;
 padding-top: 61px;
 }
+.star-mob {
+    display: none;
+ }
 
 @media (max-width: 767px) {
     .header{
         background-image: url(./img/bgi-mob.png);
-        background-position: 489.81px, -40.43px;
+        background-position: 276px -35px;
+    
     }
     .center{
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .star_3 {
+        left: 295px;
+        top: 711px;
+    }
+    .star_4 {
+        left: 324px;
+    top: 740px;
     }
     .top-box {
         width: 343px;
@@ -339,6 +357,11 @@ text-align: center;
     .game {
         height: 3740px;
     }
+    .game-play__heading {
+        font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+    }
     .game-link {
         grid-column: 4fr;
     }
@@ -360,16 +383,17 @@ text-align: center;
         flex-direction: column;
         align-items: center;
         gap: 24px;
+        background-image: none;
     }
 .game-play-card {
-    width: 343px;
-height: 528.63px;
+    width: 100%;
+height: 100%;
 display: flex;
 flex-direction: column-reverse;
 }
 .right {
-    width: 343px;
-    height: 284px;
+    width: 100%;
+    height: 100%;
 }
 .left {
     padding: 29.04px 29.04px 32.67px 29.04px;
@@ -385,6 +409,13 @@ font-weight: 400;
 line-height: 20px;
 width: 285px;
 }
+.footer__text{
+    font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+}
+
+
     
 }
 
