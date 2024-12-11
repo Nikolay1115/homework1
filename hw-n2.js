@@ -41,4 +41,5 @@ let user = {
     console.log(user);
 // Задание 10
 let yourName = prompt("Как вас зовут?");
-alert (yourName);
+alert (yourName); 
+//Завершил домашку
