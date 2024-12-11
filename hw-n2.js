@@ -30,3 +30,6 @@ num = num / 3;
 num = num + 1;
 num = num - 1;
 alert(num);
+// Задание 8
+let age = Number( prompt("Сколько вам лет?"));
+alert (age);
