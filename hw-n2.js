@@ -33,3 +33,12 @@ alert(num);
 // Задание 8
 let age = Number( prompt("Сколько вам лет?"));
 alert (age);
+// Задание 9
+let user = {
+    name: "Николай",    
+    age: 22,            
+    isAdmin: true };
+    console.log(user);
+// Задание 10
+let yourName = prompt("Как вас зовут?");
+alert (yourName);
