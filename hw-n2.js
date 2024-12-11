@@ -7,3 +7,10 @@ alert (iphone);
 
 let js = "Брендан Эйх";
 alert (js);
+
+let x = 10;
+let y = 2;
+alert (x + y);
+alert (x - y);
+alert (x * y);
+alert (x / y);
