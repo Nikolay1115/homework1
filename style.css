@@ -103,9 +103,9 @@ top: 94px;
 
     }
     .game {
-        background-color: #000000;
+        background-color:rgb(32, 32, 39);
         position: relative;
-        background-image: url(./img/Star_game.png), url(./img/Slice\ 7.png);
+        background-image: url(./img/Star_game.png), url(./img/Slice\ 8.png);
         background-repeat: no-repeat;
         background-position: 1021px 77px, 16px 780px;
         height: 1470px;
@@ -120,12 +120,6 @@ top: 94px;
         grid-template-columns: repeat(12, 1fr);
         margin-top: 72px;
         gap: 32px;
-        background-image: url(./img/Slice\ 7.png);
-        background-repeat: no-repeat;
-        background-position: -32px 0;
-       
-      
-       
     }
     .game-link {text-decoration: none;
         grid-column: span 4;
@@ -316,18 +310,20 @@ padding-top: 61px;
     .center{
         padding-left: 16px;
         padding-right: 16px;
+width: 100%;   
     }
     .star_3 {
         left: 295px;
         top: 711px;
     }
     .star_4 {
-        left: 324px;
+        left: 316px;
     top: 740px;
     }
     .top-box {
-        width: 343px;
-        margin-left: 40px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
     }
     
     .top-box__heading-big {
@@ -418,6 +414,10 @@ line-height: 20px;
 
     
 }
-
+@media (max-width: 374px) {
+    .star_4 {
+        left: 226px;
+    }
+}
 
 
