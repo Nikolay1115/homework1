@@ -165,6 +165,15 @@ function playGame() {
 
     alert(`Ваш выбор: ${userChoice}\nВыбор компьютера: ${computerChoice}\nРезультат: ${result}`);
 }
+//Код для шестой игры 
+document.getElementById('colorButton').addEventListener('click', function() {
+    // Генерация случайного цвета
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    // Изменение цвета фона
+    document.getElementById('colorBlock').style.backgroundColor = randomColor;
+});
+
+
 //Задание 1
 const people = [
     { name: 'Глеб', age: 29 },
