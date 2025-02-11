@@ -23,12 +23,12 @@ b = 2
 alert (a % b);
 // Задание 7
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+num += 5;
+num -= 3;     
+num *= 7;      
+num /= 3;      
+num++;         
+num--;         
 alert(num);
 // Задание 8
 let age = Number( prompt("Сколько вам лет?"));
@@ -41,5 +41,5 @@ let user = {
     console.log(user);
 // Задание 10
 let yourName = prompt("Как вас зовут?");
-alert (yourName); 
+alert (`Привет, ${yourName}!`); 
 //Завершил домашку
